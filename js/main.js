@@ -1,3 +1,20 @@
+//menu
+const linksMenu = $(".menu a") 
+console.log(linksMenu)
+
+linksMenu.on("click", function(e){
+    e.preventDefault()
+    console.log(e.target)
+    const dataId = $(e.target).data("id")
+    console.log(dataId)
+    const elementTarget = $("#" + dataId)
+    const positionElementTarget = elementTarget.offset().top
+    console.log(positionElementTarget)
+    $("html, body").animate({scrollTop: positionElementTarget - 120}, 1000)
+})
+
+
+
 //Submenu
 const services = $("#services")
 const submenu = $(".submenu")

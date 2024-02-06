@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/global.css" />
     <link rel="shortcut icon" href="images/favicon-ac.png" type="image/x-icon" />
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
-    <title>All Contabilidade</title>
+    <title>Finances and More</title>
 </head>
 
 <body class="">
@@ -15,20 +15,20 @@
         <div class="container header-content">
             <div class="logo-menu">
                 <a href="./index.html">
-                    <img src="./images/logo-menu.svg" alt="Logo All Contabilidade" />
+                    <img src="./images/logo-menu.svg" alt="Logo Finances and More" />
                 </a>
             </div>
 
             <nav class="">
                 <ul class="menu">
-                    <li><a href="#">sobre a F&M</a></li>
-                    <li><a href="#" id="services" class="dropdown">serviços</a>
-                        <ul id="services" class="submenu">
-                            <li><a href="#">assessoria</a></li>
-                            <li><a href="#">consultoria</a></li>
+                    <li><a href="#" data-id="about-us">sobre a F&M</a></li>
+                    <li><a href="#" id="services">serviços</a>
+                        <ul class="submenu">
+                            <li><a href="#" data-id="consultancy">assessoria</a></li>
+                            <li><a href="#" data-id="advice">consultoria</a></li>
                         </ul>
                     </li>
-                    <li><a href="#">contato</a></li>
+                    <li><a href="#" data-id="contact-us">contato</a></li>
                     <li><a href="#" class="client-area">área do cliente</a></li>
                 </ul>
             </nav>
@@ -49,7 +49,7 @@
             </div>
         </section>
 
-        <section class="about-us">
+        <section id="about-us" class="about-us">
             <div class="container about-content">
                 <div>
                     <h2>Quem Somos</h2>
@@ -73,7 +73,7 @@
             </div>
         </section>
 
-        <section class="mission">
+        <section id="mission" class="mission">
             <div class="container mission-content">
                 <div class="mission-content-text">
                     <p>There are many variations of passages <span class="strong-text"> of Lorem Ipsum available</span>
@@ -91,7 +91,7 @@
             </div>
         </section>
 
-        <section class="consultancy">
+        <section id="consultancy" class="consultancy">
 
             <div class="container consultancy-content">
                 <h2>Assessoria</h2>
@@ -133,7 +133,7 @@
             </div>
         </section>
 
-        <section class="advice">
+        <section id="advice" class="advice">
 
             <div class="container advice-content">
                 <h2>Consultoria</h2>
@@ -197,7 +197,7 @@
             </div>
         </section>
 
-        <section class="contact-us">
+        <section id="contact-us" class="contact-us">
             <div class="container contact-us-content">
                 <div>
                     <h2>fale com a gente</h2>
@@ -238,10 +238,10 @@
                 <div class="footer-main-content">
                     <div class="footer-main-content-links">
                         <ul>
-                            <li><a href="#">Quem Somos</a></li>
-                            <li><a href="#">Nossa Missão</a></li>
-                            <li><a href="#">Assessoria</a></li>
-                            <li><a href="#">Consultoria</a></li>
+                            <li><a href="#" data-id="about-us">Quem Somos</a></li>
+                            <li><a href="#" data-id="mission">Nossa Missão</a></li>
+                            <li><a href="#" data-id="consultancy">Assessoria</a></li>
+                            <li><a href="#" data-id="advice">Consultoria</a></li>
                         </ul>
                     </div>
 
@@ -285,7 +285,7 @@
 
 
 
-    <script src="https://code.jquery.com/jquery-3.7.1.slim.min.js" integrity="sha256-kmHvs0B+OpCW5GVHUNjv9rOmY0IvSIRcf7zGUDTDQM8=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
     <script type="module" src="./js/main.js"></script>
 </body>
 
