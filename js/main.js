@@ -59,7 +59,7 @@ function validationName(input, value) {
         return false
     }
 
-    input.siblings("span").html("")
+    input.siblings("span").html("")// a funcao .siblings("") pega o primeiro irmao, neste caso, html do span.
     return true
 
 }
